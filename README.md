@@ -28,14 +28,14 @@ This repo is built and tested from a Debian VM running on a Proxmox node, and th
 ## Current Status
 
 ### Working
-- ✅ live-build repo initialized and committed
-- ✅ ISO successfully builds (Debian live ISO hybrid format)
-- ✅ Custom wallpaper is embedded and shows up properly in the live environment
-- ✅ Git repo created with initial live-build configuration tracked
+- live-build repo initialized and committed
+- ISO successfully builds (Debian live ISO hybrid format)
+- Custom wallpaper is embedded and shows up properly in the live environment
+- Git repo created with initial live-build configuration tracked
 
 ### In progress
-- 🟡 Fixing default live login user and password so login works reliably
-- 🟡 Renaming output artifacts from live-image-amd64.* to KrishAdmin-Linux-2026.*
+- Fixing default live login user and password so login works reliably
+- Renaming output artifacts from live-image-amd64.* to KrishAdmin-Linux-2026.*
 
 ---
 
