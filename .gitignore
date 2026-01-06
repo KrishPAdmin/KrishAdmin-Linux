@@ -16,3 +16,16 @@ build.log
 # secrets
 *.key
 *.pem
+
+# live-build artifacts
+.build/
+binary/
+cache/
+chroot/
+*.iso
+*.img
+*.log
+*.contents
+*.files
+*.packages
+*.modified_timestamps

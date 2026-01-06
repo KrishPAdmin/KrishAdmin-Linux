@@ -1,0 +1,12 @@
+#!/bin/sh
+set -eu
+
+lb config noauto \
+  --distribution trixie \
+  --architectures amd64 \
+  --binary-images iso-hybrid \
+  --archive-areas "main" \
+  --apt-recommends false \
+  --image-name KrishAdmin-Linux-2026 \
+  --bootappend-live "boot=live components live-config.username=krishadmin username=krishadmin" \
+  "${@}"

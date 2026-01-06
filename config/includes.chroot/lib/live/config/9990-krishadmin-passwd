@@ -1,0 +1,9 @@
+#!/bin/sh
+set -eu
+
+USER="krishadmin"
+PASS="KrishAdmin@2003"
+
+if id "$USER" >/dev/null 2>&1; then
+  echo "$USER:$PASS" | chpasswd
+fi
