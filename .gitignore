@@ -1,0 +1,18 @@
+# live-build output and temp
+*.iso
+*.img
+*.log
+binary*/
+chroot*/
+cache/
+.tmp/
+lb_tmp/
+build.log
+
+# editor
+.vscode/
+.idea/
+
+# secrets
+*.key
+*.pem

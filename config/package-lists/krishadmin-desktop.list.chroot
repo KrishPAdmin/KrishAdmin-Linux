@@ -1,0 +1,17 @@
+# Base
+sudo
+ca-certificates
+network-manager
+
+# X + minimal XFCE
+xorg
+xfce4-session
+xfwm4
+xfce4-panel
+xfce4-settings
+xfce4-terminal
+thunar
+
+# Login manager
+lightdm
+lightdm-gtk-greeter
